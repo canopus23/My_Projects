@@ -1,8 +1,12 @@
 .container {
-  width: 575px;
+
   height: 825px;
 
-  background-color: #797978;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-color: #fff;
   padding-left: 30px;
 }
 #height,
@@ -21,22 +25,19 @@
   font-size: 35px;
   margin-left: 90px;
   margin-top: 20px;
-  color: rgb(241, 241, 241);
+  color: #000000;
 }
 
 button {
-  width: 150px;
-  height: 35px;
-  margin-left: 90px;
-  margin-top: 25px;
-  background-color: #fff;
-  padding: 1px 30px;
-  border-radius: 8px;
-  color: #212121;
-  text-decoration: none;
-  border: 2px solid #212121;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; 
 
-  font-size: 25px;
 }
 
 h1 {
