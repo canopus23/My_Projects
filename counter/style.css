@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Container for the entire counter */
+#count_text {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Align text horizontally */
+    font-family: sans-serif; /* Apply a clean font */
+    color: #373737; /* Consistent text color */
+}
+
+/* Styles for the main heading */
+#counter {
+    font-size: 2em;
+    margin-bottom: 10px; /* Space between elements */
+}
+
+/* Styles for the counter display */
+#count {
+    font-size: 3em;
+    margin: 0; /* No additional margin */
+}
+
+/* Container for the buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Space above buttons */
+}
+
+/* Styles for the buttons */
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Additional styles can be added here */
