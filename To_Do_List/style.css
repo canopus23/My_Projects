@@ -84,3 +84,7 @@ li button:hover {
     text-decoration: line-through;
     color: #bbb;
 }
+
+.head{
+    align-content: center;
+}
