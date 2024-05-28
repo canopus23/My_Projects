@@ -6,7 +6,7 @@ const button = document.querySelector('button');
 
 button.addEventListener('click', 
 function textInput(){
-    if(input.value === ''){
+    if (input.value === ''){
         alert("Please Write Something")
     } else{
         let li = document.createElement('li');
@@ -18,7 +18,6 @@ function textInput(){
         li.addEventListener('click', () => {
             li.style.textDecoration = li.style.textDecoration === 'line-through' ? 'none' : 'line-through';
         });
-
 
         li.addEventListener('dblclick', () => {
             listContainer.removeChild(li)
