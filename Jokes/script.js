@@ -22,6 +22,11 @@ function getjoke() {
         const joke = data.joke;
 
         joke_text.innerHTML = joke; 
-    })
-    
+
+    }).catch(function(error) {
+        
+        joke_text.innerText = 'Oops! Some error happened :(';
+        // console log the error
+        console.log(error);
+    });
 }

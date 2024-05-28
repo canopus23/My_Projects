@@ -22,7 +22,8 @@
   }
   
   .btn:hover {
-    cursor: pointer; /* hand symbol */
+    cursor: pointer;
+    background-color: #d09500;
   }
   
   /* body */
@@ -63,6 +64,6 @@
   
   /* .new-joke-btn */
   .new-joke-btn {
-    background-color: #FF0000;
+    background-color: #ffbd15;
   }
   
