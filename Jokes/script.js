@@ -3,7 +3,6 @@ const joke_text = document.querySelector('.joke-text');
 const joke_btn = document.querySelector('.new-joke-btn');
 
 
-
 joke_btn.addEventListener('click', getjoke);
 
 getjoke();
@@ -25,7 +24,7 @@ function getjoke() {
 
     }).catch(function(error) {
         
-        joke_text.innerText = 'Oops! Some error happened :(';
+        joke_text.innerText = 'Oops! Something went wrong :(';
         // console log the error
         console.log(error);
     });
