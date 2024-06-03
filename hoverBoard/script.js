@@ -1,5 +1,5 @@
 const container = document.querySelector('.container');
-const colors = ['#3A9AD9', '#E94B3C', '#F39C12', '#2ECC71', '#9B59B6'];
+const colors = ['#3A9AD9', '#E94B3C', '#F39C12', '#2ECC71', '#9B59B6', '#1ABC9C', '#F1C40F'];
 const SQUARE = 460;
 
 for(let i = 0; i < SQUARE; i++){
@@ -31,3 +31,4 @@ function removeColor(element){
 function randomColor(){
     return colors[Math.floor(Math.random() * colors.length)]
 }
+
