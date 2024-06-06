@@ -8,6 +8,7 @@ button.addEventListener('click',
 function textInput(){
     if (input.value === ''){
         alert("Please Write Something")
+        
     } else{
         let li = document.createElement('li');
         li.innerHTML = input.value;

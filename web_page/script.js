@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    
     img.addEventListener('click', function() {
         window.location.href = 'https://www.google.com';
     });
