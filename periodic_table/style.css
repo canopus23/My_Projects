@@ -22,6 +22,4 @@
 .element.N { grid-column: 15 / span 1; grid-row: 2 / span 1; }
 .element.O { grid-column: 16 / span 1; grid-row: 2 / span 1; }
 .element.F { grid-column: 17 / span 1; grid-row: 2 / span 1; }
-.element.Ne { grid-column: 18 / span 1; grid-row: 2 / span 1; }
-
 /* Customize more element styles as needed */
