@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rain Animation</title>
+    <title>Rain Inspiration</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-900 flex items-center justify-center h-screen">
-    <div class="rain-container relative w-full h-full overflow-hidden"></div>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-between h-screen">
+    <header class="w-full p-4 bg-gray-800 text-center">
+        <h1 class="text-3xl font-bold">Rain Inspiration</h1>
+    </header>
+    <main class="flex-grow relative w-full flex items-center justify-center">
+        <div class="rain-container absolute w-full h-full overflow-hidden"></div>
+        <div class="quote-container z-10 p-4 bg-gray-800 bg-opacity-50 rounded-lg text-center">
+            <p class="quote text-2xl font-semibold"></p>
+        </div>
+        <button class="toggle-rain absolute bottom-4 right-4 p-2 bg-blue-600 rounded-full">Toggle Rain</button>
+    </main>
+    <footer class="w-full p-4 bg-gray-800 text-center">
+        <form class="contact-form space-y-4">
+            <h2 class="text-xl font-bold">Contact Us</h2>
+            <input type="text" placeholder="Name" class="w-full p-2 bg-gray-700 rounded">
+            <input type="email" placeholder="Email" class="w-full p-2 bg-gray-700 rounded">
+            <textarea placeholder="Message" class="w-full p-2 bg-gray-700 rounded"></textarea>
+            <button type="submit" class="w-full p-2 bg-blue-600 rounded">Send</button>
+        </form>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
