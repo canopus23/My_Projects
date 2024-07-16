@@ -24,4 +24,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function startRain() {
-        rainInter
+        rainInterval = setInterval(createRaindrop, 50);
+    }
+
+    function stopRain() {
+        clearInterval(rainInterval);
+    }
+
+    function toggleRain() {
+        if (rainInterval) {
+            stopRain();
+            rainInterval = null;
+        } else {
+            startRain();
+        }
+    }
+
+    function displayRandomQuote() {
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        quoteContainer.textContent = quotes[randomIndex];
+    }
+
+    toggleRainButton.addEventListener('click', toggleRain);
+
+    startRain();
+    displayRandomQuote();
+    setInterval(displayRandomQuote, 10000); // Change quote every 10 seconds
+});
