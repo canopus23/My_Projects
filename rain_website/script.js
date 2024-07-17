@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         raindrop.style.left = `${Math.random() * 100}%`;
         raindrop.style.animationDuration = `${0.5 + Math.random() * 0.5}s`;
         raindrop.style.opacity = Math.random();
-        rainContainer.appendChild(raindrop);
+        // rainContainer.appendChild(raindrop);
 
         setTimeout(() => {
             raindrop.remove();
